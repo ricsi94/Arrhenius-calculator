@@ -1,0 +1,40 @@
+#equation-img-details{
+    margin: auto;
+    margin-bottom:3rem;
+    width: 15rem;
+}
+#lnk-img-details{
+    margin: auto;
+    margin-bottom:3rem;
+    width: 15rem;
+}
+#mxb-img-details{
+    margin: auto;
+    margin-bottom:3rem;
+    width: 20rem;
+}
+#equation-list li{
+    text-align: left;
+}
+.visualize-details{
+    margin-bottom: 3rem;
+}
+.wrapper {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+/* For Tablet */
+@media screen and (max-width: 1023px) {
+    .wrapper {
+        width: 70%;
+    }
+}
+
+/* For Mobile */
+@media screen and (max-width: 767px) {
+    .wrapper {
+        width: 90%;
+    }
+}

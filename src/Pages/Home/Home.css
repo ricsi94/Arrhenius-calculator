@@ -1,0 +1,27 @@
+#equation-img {
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+.input-content{
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+.content-home{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0.4rem 1rem;
+    border-radius: 1rem;
+}
+
+.ai-output{
+    color:rgba(0, 8, 116, 0.8);
+}
+
+@media screen and (max-width: 990px) {
+    .content-home{
+        box-shadow: none;
+        border-radius: none;
+    }
+    .input-content{
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,15 @@
+li {
+    text-align: center;
+    margin-right: 1rem;
+}
+li i {
+    display: block;
+    font-size: 2rem;
+}
+li .active{
+    border-bottom: 0.2rem solid red;
+}
+
+li a:hover i{
+    color:red;
+}
